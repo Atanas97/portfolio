@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.gradient {
+    background: rgb(32,30,180);
+    background: linear-gradient(169deg, rgba(32,30,180,1) 0%, rgba(98,32,152,1) 100%);  
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+
+.feature {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.feature ul li {
+    list-style-type: none;
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 2.5rem;
+    margin-bottom: .25rem;
+    color: #fff;
+}
+
+.additional-stack h3 {
+    margin-top: -2rem;
+    text-align: center;
+}
+
+.additional-stack p {
+    text-align: center;
+}
+
+.additional-stack img {
+    width: 100%;
+}
+
+.intro-two {
+    color: #fff;
+}
+
+footer span {
+    color: #fff;
+}
+
+/*Media queries | Responsive*/
+@media only screen and (max-width: 800px) {
+
+    * {
+        font-size: 1rem !important;
+    }
+
+    .page-header {
+        text-align: center;
+    }
+    
+    .page-header h2 {
+        margin: 1rem 0 !important;
+    }
+
+    .page-header button:first-of-type {
+        margin-right: 1rem !important;
+    }
+
+    .tech-stack img {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 70% !important;
+    }
+
+    .responsive {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+/*Animations*/
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%) !important;
+    }
+    100% {
+        transform: translateX(0) !important;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*Animation classes*/
+.slide-top {
+    animation: slideInFromTop 1s ease-in;
+}
+
+.slide-right {
+    animation: slideInFromRight 1s ease-in;
+}
+
+.slide-bottom {
+    animation: slideInFromBottom 1s ease-in;
+}
+
+.slide-left {
+    animation: slideInFromLeft 1s ease-in;
+}
