@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
 html,
 body {
     height: 100%;
+    width: 100%;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
 }
 
 .gradient {
@@ -14,9 +13,10 @@ body {
 }
 
 .page-header {
-    margin-top: 4rem;
     font-size: 1.25rem;
     color: #fff;
+    padding-top: 6rem;
+    overflow-x: hidden;
 }
 
 

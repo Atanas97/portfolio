@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Animate on scroll link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
@@ -13,7 +15,7 @@
 <body>
     <!--Header/Nav Bar Section-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="index.html">AICreations</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,12 +41,12 @@
 
     <!--Intro Section-->
     <header class="page-header gradient">
-        <div class="container pt-3 ">
-            <div class="row justify-content-center align-items-center mt-4 ">
-                <div class="col-lg-6 slide-left">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 slide-left">
                     <img src="./img/web-dev.svg" alt="header img" class="img-fluid">
                 </div>
-                <div class="col-lg-6 slide-right">
+                <div class="col-lg-6">
                     <h2>Build beautiful websites with latest technology!</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium qui quibusdam quasi illum
                         ut, eaque voluptate at molestias quaerat vel?
@@ -68,19 +70,19 @@
     <section class="tech-stack">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-2 responsive slide-left">
+                <div class="col-md-2 responsive" data-aos="fade-up">
                     <img src="./img/html5.png" alt="html logo" class="img-fluid">
                 </div>
-                <div class="col-md-2 responsive">
+                <div class="col-md-2 responsive" data-aos="fade-down">
                     <img src="./img/css.png" alt="css logo" class="img-fluid">
                 </div>
-                <div class="col-md-2 responsive">
+                <div class="col-md-2 responsive" data-aos="fade-left">
                     <img src="./img/js.png" alt="javascript logo" class="img-fluid">
                 </div>
-                <div class="col-md-2 responsive">
+                <div class="col-md-2 responsive" data-aos="fade-right">
                     <img src="./img/bootstrap.png" alt="bootstrap logo" class="img-fluid">
                 </div>
-                <div class="col-md-2 responsive">
+                <div class="col-md-2 responsive" data-aos="fade-up">
                     <img src="./img/jquery.png" alt="jquery logo" class="img-fluid">
                 </div>
             </div>
@@ -97,10 +99,10 @@
         <!--About me Section-->
         <div class="about-me container" id="intro-section">
             <div class="row align-items-center justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-out" data-aos="flip-right">
                     <img src="./img/coding.png" alt="person coding" class="img-fluid">
                 </div>
-                <div class="col-md-6 slide-top">
+                <div class="col-md-6" data-aos="flip-left">
                     <h3>A quick introduction:</h3>
                     <p>I am an aspiring web developer named <b>Atanas Iskrenov</b>. I have studied Telecommunications in
                         Technical University of Sofia
@@ -124,20 +126,21 @@
         </svg>
     </section>
 
+    <!--Additional stack-->
     <div class="additional-stack">
         <div class="container">
             <div class="row align-items-center justify-content-around img-fluid">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-up">
                     <img src="./img/figma.png" alt="Photoshop Logo" class="img-fluid">
                     <h3>Figma</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-right">
                     <img src="./img/adobe-xd.png" alt="Photoshop Logo" class="img-fluid">
                     <h3>Abobe Xd</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-down">
                     <img src="./img/photoshop.png" alt="Photoshop Logo" class="img-fluid">
                     <h3>Photoshop</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas.</p>
@@ -155,10 +158,10 @@
         </svg>
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-left">
                     <img src="./img/building.png" alt="people building" class="img-fluid">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-right">
                     <button class="btn btn-outline-warning">Create</button>
                     <h3>Team Work</h3>
                     <p>To create websites and web apps, communication between team members must be crystal clear.
@@ -167,22 +170,22 @@
                 </div>
             </div>
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-up">
                     <button class="btn btn-outline-warning">Create</button>
                     <h3>Team Work</h3>
                     <p>To create websites and web apps, communication between team members must be crystal clear.
                         That's why I value this skill, having a syngergy with your colleagues is a must!
                     </p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="slide-left">
                     <img src="./img/building.png" alt="people building" class="img-fluid">
                 </div>
             </div>
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="zoom-in">
                     <img src="./img/building.png" alt="people building" class="img-fluid">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="zoom-out">
                     <button class="btn btn-outline-warning">Create</button>
                     <h3>Team Work</h3>
                     <p>To create websites and web apps, communication between team members must be crystal clear.
@@ -205,18 +208,15 @@
                 <div class="col-md-5">
                     <div class="mb-3">
                         <h3>Contact Me!</h3>
-                        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-                            <input type="hidden" name="form-name" value="contact">
-                            <p class="hidden d-none">
-                                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-                            </p>
+                        <form action="https://formspree.io/f/mqkwpnnj" name="contact" method="POST">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
+                                placeholder="name@example.com" name="email">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            name="description"></textarea>
                         <button type="submit" class="btn btn-outline-secondary mt-2">Submit</button>
                     </div>
                 </div>
@@ -228,6 +228,8 @@
         </div>
     </section>
 
+
+
     <!--Footer Section-->
     <footer class="gradient">
         <div class="container-fluid text-center py-2">
@@ -235,7 +237,14 @@
         </div>
     </footer>
 
+
+    <!--Animate on scroll js link-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
