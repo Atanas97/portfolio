@@ -4,6 +4,7 @@ body {
     height: 100%;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .gradient {
@@ -15,7 +16,7 @@ body {
     font-size: 1.25rem;
     color: #fff;
     padding-top: 6rem;
-    overflow-x: hidden;
+    
 }
 
 
