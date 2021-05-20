@@ -64,8 +64,8 @@ footer span {
         font-size: 1rem !important;
     }
 
-    html {
-        overflow-x: hidden;
+    section {
+        overflow-x: hidden !important;
     }
 
     .page-header {
@@ -96,13 +96,6 @@ footer span {
     }
 }
 
-@media screen 
-  and (device-width: 360px) 
-  and (device-width: 375px) {
-    html {
-        overflow-x: hidden !important;
-    }
-}
 /*Animations*/
 
 @keyframes slideInFromLeft {
