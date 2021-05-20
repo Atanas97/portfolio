@@ -7,6 +7,10 @@ body {
     
 }
 
+section {
+    overflow-x: hidden;
+}
+
 .gradient {
     background: rgb(32,30,180);
     background: linear-gradient(169deg, rgba(32,30,180,1) 0%, rgba(98,32,152,1) 100%);  
