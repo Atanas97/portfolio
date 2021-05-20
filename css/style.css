@@ -83,6 +83,9 @@ footer span {
         margin-top: 5rem !important;
     }
 
+    body {
+        overflow-x: hidden !important;
+    }
     .responsive {
         display: flex !important;
         justify-content: center !important;
