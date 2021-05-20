@@ -2,7 +2,6 @@
 html,
 body {
     height: 100%;
-    width: 100%;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -50,6 +49,7 @@ body {
 
 .intro-two {
     color: #fff;
+    overflow-x: hidden;
 }
 
 footer span {
