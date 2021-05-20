@@ -64,6 +64,10 @@ footer span {
         font-size: 1rem !important;
     }
 
+    html {
+        overflow-x: hidden;
+    }
+
     .page-header {
         text-align: center;
     }
@@ -84,9 +88,7 @@ footer span {
         margin-top: 5rem !important;
     }
 
-    body {
-        overflow-x: hidden !important;
-    }
+    
     .responsive {
         display: flex !important;
         justify-content: center !important;
@@ -94,6 +96,13 @@ footer span {
     }
 }
 
+@media screen 
+  and (device-width: 360px) 
+  and (device-width: 375px) {
+    html {
+        overflow-x: hidden !important;
+    }
+}
 /*Animations*/
 
 @keyframes slideInFromLeft {
